@@ -23,9 +23,14 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+        <ul>
+		  {% for post in site.posts limit:3 %}
+			<li>
+			  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+			  <span>{{ post.date | date: "%B %d, %Y" }}</span>
+			</li>
+		  {% endfor %}
+		</ul>
 
       </header>
       <section>
