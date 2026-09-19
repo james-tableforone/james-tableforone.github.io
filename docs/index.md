@@ -1,5 +1,5 @@
 ---
 layout: default
+title: Table For One
 ---
-
-This is a test of the entry into the site.
+Placeholder text for index/site entry point

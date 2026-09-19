@@ -13,38 +13,35 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <div class="gridLayout">
+		<div class="navBar">
+		  <header>
+			{% if site.logo %}
+			  <a href="{{ "/" | absolute_url }}"><img src="{{site.logo | relative_url}}" alt="Logo" class="Logo" /></a>
+			{% endif %}
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+			<p class="Header-text">{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <ul>
-		  {% for post in site.posts limit:3 %}
-			<li>
-			  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-			  <span>{{ post.date | date: "%B %d, %Y" }}</span>
-			</li>
-		  {% endfor %}
-		</ul>
-
-      </header>
-      <section>
+			<ul>
+			  {% for post in site.posts limit:3 %}
+				<li>
+				  <a class="postLink" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+				  <span>{{ post.date | date: "%B %d, %Y" }}</span>
+				</li>
+			  {% endfor %}
+			</ul>
+		  </header>
+		 </div>
+      <section class="Content">
 
       {{ content }}
 
       </section>
-      <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
+	  <div class="Footer">
+		  <footer>
+			<p class="Header-text"> <a href="{{ "/about/ " | absolute_url }}"> About </a></p>
+		  </footer>
+	  </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
