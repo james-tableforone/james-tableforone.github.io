@@ -61,7 +61,7 @@ a:hover small {
   padding: 10px;
   display: grid;
   grid-template-columns: 25% 75%;
-  grid-template-rows: 90% 10%;
+  grid-template-rows: 85% 15%;
   row-gap: 10px;
 }
 
@@ -219,6 +219,15 @@ footer {
 	grid-column: 1 / span 2;
 	grid-row: 2 / span 1;
 	background-color: #b36666;
+	display: flex;
+	justify-content: center;
+}
+
+.footerLink{
+	padding-left: 5%;
+	padding-right: 5%;
+	place-self: center;
+	margin: 0px;
 }
 
 .navBar, .footer {

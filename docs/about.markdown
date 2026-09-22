@@ -4,18 +4,18 @@ title: About
 permalink: /about/
 ---
 
-*Table for One* is a blog for food and coffee in Oklahoma City, through the lens of a single guy who really loves a good food experience. 
+In the past decade, Oklahoma City has undergone a food and drink renaissance. Between famous resturants, hole-in-the-wall gems, a burst of activity from the brewery scene, 
+and a tight-knit coffee community, it's a great time to love to eat in OKC.
 
-The past decade has seen Oklahoma City's culture of food and drinks grow rapidly. Between famous resturaunts like Cafe Kacao, local staples like Hideaway Pizza, and secret stars like Highball Sushi, there's never been a better time to be a foodie and live in OKC. 
-And that's not even considering our blossoming coffee and drinks scene, with local breweries, coffee roasters, and cafes popping up across the city.
+I am unabashedly a bit of a foodie, and one of my favorite hobbies is going searching for new food and coffee shops across the city. *Table for One* is an extension of that hobby, 
+both as a journal of my adventures and an opportunity to share what I find with others. Hopefully, by sharing the great places I find, other people will be able to find them too.
 
-One of my favorite hobbies is going searching for new food and coffee shops (okay, mostly coffee shops) across the city, and finding things I really love. I'll share my favorite spots, what I'm getting there, and what I love on the menu; sometimes, you might get my musings and reflections on local food and culture as well. 
-When I'm not hunting the city for good food and coffee, I like to bring that experience home with me as well. I also love to make my own tea, coffee, and meals, and I'll share these experiences as well -- especially since I love to buy from local or small businesses.
-
-*Table for One* is my love letter to food, culture, and a good cup of coffee in OKC. Hopefully, my experiences will help you find places you love too.
+I also love to cook, so you can expect me to use this blog as an outlet for that as well. This isn't a recipe blog, but when I make something particularly good, I'll share the results here.
+And interspersed with all of the posts about the great food, you'll probably get a few posts about food culture and history too -- both in Oklahoma City and beyond.
 
 ## About Me
-In online spaces, I go by James, and I'm a lifelong Oklahoman from the south side of Oklahoma City. After I returned from college in Missouri in 2023, I discovered that my hometown had undergone a cultural and culinary evolution while I was gone. 
-Now, when I'm not coding, writing, or reading, I spend a lot of time exploring all of the great food and drinks that OKC has to offer.
+In online spaces, I go by James, and I grew up on the south side of Oklahoma City. After I returned from college in Missouri in 2023, I discovered that my hometown 
+had undergone a cultural and culinary evolution while I was gone. Now, when I'm not coding, writing, or reading, I spend a lot of time exploring all of the great food and 
+drinks that the city has to offer.
 
 If you have any suggestions for places I should check out, you can contact me at [james.tableforone@gmail.com](mailto:james.tableforone@gmail.com).
